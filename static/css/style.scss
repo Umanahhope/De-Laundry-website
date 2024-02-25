@@ -29,6 +29,34 @@ $shadow:0 5px 20px rgba(0,0,0,0.5);
 
 
 // base
+body{
+  font-size: 16px;
+  line-height: 1.5;
+}
+:before, :after{
+ box-sizing: border-box;
+}
+img{
+ width: 100% ;
+}
+.container{
+ max-width: 1140px;
+ margin:auto;
+}
+.row{
+ display: flex;
+ flex-wrap: wrap;
+}
+.titleText, h2{
+ color: $text-black-900;
+ font-size: 2em;
+ font-weight: 300;
+
+ span{
+  color: $text-black-700;
+ }
+}
+
 
 // button Style
 
